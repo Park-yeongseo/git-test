@@ -1,0 +1,24 @@
+graph TD
+    Start[AI 제품 창업자 로드맵] --> Phase1[단기: 6개월<br/>2025.01-06]
+    Start --> Phase2[중기: 1년<br/>2025.07-2026.06]
+    Start --> Phase3[장기: 2-3년<br/>2026.07-2027.12]
+    
+    Phase1 --> P1_1[기술 습득<br/>LangChain + RAG<br/>실전 프로젝트 3개]
+    Phase1 --> P1_2[문제 발견<br/>산업 전문가 10명 인터뷰<br/>페인 포인트 파악]
+    Phase1 --> P1_Goal[✅ 목표<br/>해결할 문제 1개 선정]
+    
+    Phase2 --> P2_1[베타 출시<br/>초기 사용자 100명<br/>주간 피드백 수집]
+    Phase2 --> P2_2[수익화 실험<br/>유료 전환 테스트<br/>커뮤니티 구축]
+    Phase2 --> P2_Goal[✅ 목표<br/>월 $500 수익<br/>사용자 100명]
+    
+    Phase3 --> P3_1[성장 가속<br/>월 $500→$3000<br/>마케팅 채널 확보]
+    Phase3 --> P3_2[운영 자동화<br/>주 15시간 운영<br/>제2 제품 출시]
+    Phase3 --> P3_Goal[✅ 최종 목표<br/>MRR $3,000<br/>지속 가능한 비즈니스]
+    
+    P1_Goal --> Phase2
+    P2_Goal --> Phase3
+    
+    style Start fill:#e1f5ff
+    style P1_Goal fill:#d4edda
+    style P2_Goal fill:#d4edda
+    style P3_Goal fill:#ffd700
